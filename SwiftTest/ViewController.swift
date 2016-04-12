@@ -62,6 +62,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         {
         case 0:
             print(indexPath.row);
+            let c = KindAlertViewController();
+            navigationController?.pushViewController(c, animated: true);
         case 1:
             print(indexPath.row);
         default:

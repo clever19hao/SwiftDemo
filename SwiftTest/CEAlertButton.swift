@@ -10,6 +10,6 @@ import UIKit
 
 class CEAlertButton: UIButton {
 
-    var action:()?
+    var btnAction:(Void ->Void)?
 
 }
